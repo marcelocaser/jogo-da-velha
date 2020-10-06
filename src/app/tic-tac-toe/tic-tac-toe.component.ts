@@ -22,6 +22,7 @@ export class TicTacToeComponent {
       if (this.checkWinner(this.currentPlayer)) {
         this.winner = this.currentPlayer;
       }
+      // jogador atual
       if (this.currentPlayer === 'O') {
         this.currentPlayer = 'X';
       } else {
